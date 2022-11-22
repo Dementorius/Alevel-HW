@@ -1,0 +1,47 @@
+body {
+ height: 100vh;
+ margin: 0;
+ background-color: #f5fcff;
+}
+
+.container {
+ position: relative;
+ height: 100vh;
+}
+.sun  {
+ top: 0;
+ right: 0;
+ }
+
+.img {
+position: absolute;
+z-index: -1;
+}
+
+.clouds {
+ top: 50px;
+ background-image: url(../img/cloud.png);
+ z-index: 1;
+ background-size: 350px;
+ height: 200px;
+ position: absolute;
+ width: 100%;
+ background-repeat-y: no-repeat;
+}
+
+.cat {
+  bottom: 0;
+  height: 500px;
+  background-size: 300px;
+  left: 43%;
+}
+
+.grass {
+ background: url(../img/grass.png);
+ position: absolute;
+ bottom: 0;
+ height: 150px;
+ z-index: 1;
+ background-size: 495px;
+ width: 100%;
+}
